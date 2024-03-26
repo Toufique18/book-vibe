@@ -24,7 +24,7 @@ const BookDetails = () => {
                     </div>
                 </div>
             </div> */}
-            <div className="flex justify-center">
+            <div className="flex-1 lg:flex justify-center">
                 <div className="p-10 bg-zinc-100 rounded-2xl lg:w-2/5">
                     <img className="w-72 h-96 mx-auto" src={book.image} alt="Album" />
                 </div>
