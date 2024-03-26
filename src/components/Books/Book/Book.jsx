@@ -2,9 +2,9 @@ import { FaRegStar } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 const Book = ({ book }) => {
-    const { image, tags, bookName, author, category, rating } = book;
+    const {id, image, tags, bookName, author, category, rating } = book;
     return (
-        <Link className="transition  hover:border-green-500">
+        <Link to={`/books/${id}`} className="transition  hover:scale-95">
             <div className="card bg-base-100 border border-neutral-900 border-opacity-20">
                 <figure className="p-5 m-3 bg-zinc-100 rounded-2xl">
                     <img src={image} alt="Shoes" className="rounded-xl w-24 h-40" />
