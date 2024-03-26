@@ -9,7 +9,6 @@
         "rating": 4.7,
         "category": "Classic Fiction",
         "tags": [
-            "Social Justice",
             "Coming-of-Age",
             "Legal Drama"
         ],
@@ -37,8 +36,8 @@
         "category": "Fantasy",
         "tags": [
             "Epic Fantasy",
-            "Adventure",
-            "Magic"
+            "Adventure"
+            
         ],
         "publisher": "George Allen & Unwin",
         "yearOfPublishing": 1954,
@@ -64,7 +63,6 @@
         "category": "Dystopian Fiction",
         "tags": [
             "Surveillance",
-            "Government Control",
             "Thought Police"
         ],
         "publisher": "Secker & Warburg",
@@ -91,7 +89,6 @@
         "category": "Classic Romance",
         "tags": [
             "Romantic Comedy",
-            "Social Commentary",
             "Regency Era"
         ],
         "publisher": "T. Egerton, Whitehall",
@@ -117,7 +114,6 @@
         "rating": 4.8,
         "category": "Fantasy, Adventure",
         "tags": [
-            "Middle-earth",
             "Quest",
             "Creatures"
         ],
@@ -145,8 +141,7 @@
         "category": "Science Fiction",
         "tags": [
             "Humor",
-            "Space Travel",
-            "Existentialism"
+            "Space Travel"
         ],
         "publisher": "Pan Books",
         "yearOfPublishing": 1979,
