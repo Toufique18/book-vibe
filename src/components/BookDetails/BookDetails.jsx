@@ -1,11 +1,34 @@
 import { useLoaderData, useParams } from "react-router-dom";
+import { ToastContainer, toast } from 'react-toastify';
+
+import 'react-toastify/dist/ReactToastify.css';
+import { saveBookList, getStoredBookList } from "../../utility/localStorage";
 
 const BookDetails = () => {
     const books = useLoaderData();
     const { id } = useParams();
     const idInt = parseInt(id);
     const book = books.find(book => book.id === idInt)
-    console.log(book)
+
+    
+    const handleReadBook = () => {
+        const isAdded = saveBookList("readList", idInt);
+        if (isAdded) {
+            toast.success("This book has been added to your Read list.");
+        } else {
+            toast.warn("You have already added this book to your Read list.");
+        }
+    }
+
+    const handleAddToWishlist = () => {
+        const storedBookLists = getStoredBookList();
+        if (storedBookLists.readList.includes(idInt)) {
+            toast.warn("You have already added this book to your Read list. It will not be added to Wishlist.");
+        } else {
+            saveBookList("wishlist", idInt);
+            toast.success("This book has been added to your Wishlist.");
+        }
+    };
 
     return (
         <div className="container mx-auto lg:px-20 px-5 py-5">
@@ -67,14 +90,17 @@ const BookDetails = () => {
                         </tr>
                     </table>
                     <div className="flex gap-5">
-                        <button className="btn rounded-lg border border-neutral-900 border-opacity-30 text-black font-bold">Read</button>
-                        <button className="btn bg-teal-400 rounded-lg text-white font-bold">Wishlist</button>
+                        <button onClick={handleReadBook} className="btn rounded-lg border border-neutral-900 border-opacity-30 text-black font-bold">Read</button>
+                        <button onClick={handleAddToWishlist} className="btn bg-teal-400 rounded-lg text-white font-bold">Wishlist</button>
                     </div>
 
                 </div>
             </div>
+            <ToastContainer /> 
         </div>
     );
 };
 
 export default BookDetails;
+
+
