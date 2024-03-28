@@ -22,7 +22,9 @@ const BookDetails = () => {
 
     const handleAddToWishlist = () => {
         const storedBookLists = getStoredBookList();
-        if (storedBookLists.readList.includes(idInt)) {
+        if (storedBookLists.wishlist.includes(idInt)) {
+            toast.warn("You have already added this book to your Wishlist.");
+        } else if (storedBookLists.readList.includes(idInt)) {
             toast.warn("You have already added this book to your Read list. It will not be added to Wishlist.");
         } else {
             saveBookList("wishlist", idInt);

@@ -1,6 +1,7 @@
 import { IoLocationOutline } from "react-icons/io5";
 import { IoPeopleOutline } from "react-icons/io5";
 import { MdOutlineContactPage } from "react-icons/md";
+import { Link } from "react-router-dom";
 
 
 const LoadBook = ({ book }) => {
@@ -43,7 +44,7 @@ const LoadBook = ({ book }) => {
                         <div className="flex-1 lg:flex gap-2">
                             <p className="btn text-blue-500 text-base font-normal font-['Work Sans'] bg-blue-500 bg-opacity-20 rounded-[30px] ">Category: {category}</p>
                             <p className="btn text-amber-400 text-base font-normal font-['Work Sans'] bg-amber-400 bg-opacity-20 rounded-[30px]">Rating: {rating}</p>
-                            <button className="btn text-white text-lg font-medium font-['Work Sans'] bg-green-600 rounded-[30px]">View Details</button>
+                            <Link to={`/books/${id}`} className="btn text-white text-lg font-medium font-['Work Sans'] bg-green-600 rounded-[30px]">View Details</Link>
                         </div>
                     </div>
                 </div>
