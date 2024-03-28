@@ -15,7 +15,7 @@ const LoadBook = ({ book }) => {
                     </div>
                     <div className="w-full">
                         <h1 className="text-neutral-900 text-2xl font-bold font-['Playfair Display']">{bookName}</h1>
-                        <p className="text-neutral-900 text-opacity-80 text-base font-medium font-['Work Sans'] py-2">by : {author}</p>
+                        <p className="text-neutral-900 text-opacity-80 text-base font-medium font-['Work Sans'] py-2">by : {author.name}</p>
                         <div className="flex-1 lg:flex items-center gap-3">
                             <div className="flex gap-2 items-center">
                                 <p className="text-neutral-900 text-base font-bold font-['Work Sans'] leading-relaxed">Tags</p>

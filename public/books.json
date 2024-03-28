@@ -2,7 +2,21 @@
     {
         "id": 1,
         "bookName": "To Kill a Mockingbird",
-        "author": "Harper Lee",
+        "author": {
+            "name": "Harper Lee",
+            "auImage": "https://i.ibb.co/rsy3LXs/Harper-Lee.jpg",
+            "birthDate": "April 28, 1926",
+            "deathDate": "February 19, 2016",
+            "otherBooks": [
+                "Go Set a Watchman",
+                "The Mockingbird Next Door"
+            ],
+            "totalPublications": 2,
+            "achievements": [
+                "Pulitzer Prize for Fiction",
+                "Presidential Medal of Freedom"
+            ]
+        },
         "image": "https://i.ibb.co/VJfqc6t/To-Kill-a-Mockingbird.jpg",
         "review": "Harper Lee's masterpiece addresses issues of racial injustice and moral growth in the American South. Through the eyes of Scout Finch, readers witness the complexities of compassion and integrity.",
         "totalPages": 281,
@@ -15,47 +29,81 @@
         "publisher": "J. B. Lippincott & Co.",
         "yearOfPublishing": 1960,
         "authorInterviews": "Harper Lee discusses her motivations and experiences in writing To Kill a Mockingbird, emphasizing the importance of empathy and understanding.",
-        "bookAdaptations": [
-            {
-                "poster": "https://i.ibb.co/P4GM2yt/To-Kill-a-Mockingbird-1963-US-theatrical-poster.jpg",
-                "adaptationName": "To Kill a Mockingbird",
-                "type": "Movie",
-                "released": "1962",
-                "director": "Robert Mulligan"
-            }
-        ]
+        "bookAdaptations": {
+            "poster": "https://i.ibb.co/P4GM2yt/To-Kill-a-Mockingbird-1963-US-theatrical-poster.jpg",
+            "adaptationName": "To Kill a Mockingbird",
+            "type": "Movie",
+            "released": "1962",
+            "director": "Robert Mulligan",
+            "runtime": "129 minutes",
+            "cast": ["Gregory Peck", "Mary Badham"],
+            "imdbRating": 8.2,
+            "worldwideGrossEarnings": "$13,129,846",
+            "link": "https://mlwbd.do//?s=To+Kill+a+Mockingbird"
+            
+        }
     },
     {
         "id": 2,
-        "bookName": "The Lord of the Rings",
-        "author": "J.R.R. Tolkien",
-        "image": "https://i.ibb.co/KXNWW1H/The-Lord-of-the-Rings.jpg",
-        "review": "Tolkien's epic fantasy saga takes readers on a journey through Middle-earth filled with rich mythology, heroic quests, and battles against dark forces. A timeless tale of friendship, courage, and sacrifice.",
-        "totalPages": 1178,
-        "rating": 4.9,
-        "category": "Fantasy",
+        "bookName": "The Great Gatsby",
+        "author": {
+            "name": "F. Scott Fitzgerald",
+            "auImage": "https://i.ibb.co/ZSMXznp/Scott-Fitzgerald.jpg",
+            "birthDate": "September 24, 1896",
+            "deathDate": "December 21, 1940",
+            "otherBooks": [
+                "Tender Is the Night",
+                "This Side of Paradise"
+            ],
+            "totalPublications": 5,
+            "achievements": [
+                "The Great American Novel",
+                "Masterpiece of Modern Literature"
+            ]
+        },
+        "image": "https://i.ibb.co/R6Mx6qp/The-Great-Gatsby.jpg",
+        "review": "Fitzgerald's classic novel delves into the opulent yet tumultuous world of Jay Gatsby and his love for Daisy Buchanan. A timeless tale of wealth, love, and the American Dream.",
+        "totalPages": 180,
+        "rating": 4.5,
+        "category": "Classic Fiction",
         "tags": [
-            "Epic Fantasy",
-            "Adventure"
-            
+            "Romance",
+            "1920s"
         ],
-        "publisher": "George Allen & Unwin",
-        "yearOfPublishing": 1954,
-        "authorInterviews": "J.R.R. Tolkien shares insights into the creation of Middle-earth, characters like Frodo and Gandalf, and themes of good versus evil in this enlightening interview.",
-        "bookAdaptations": [
-            {
-                "poster": "https://i.ibb.co/5MZS2RM/The-Lord-of-the-Rings-poster.jpg",
-                "adaptationName": "The Lord of the Rings",
-                "type": "Movie",
-                "released": "2001-2003",
-                "director": "Peter Jackson"
-            }
-        ]
+        "publisher": "Charles Scribner's Sons",
+        "yearOfPublishing": 1925,
+        "authorInterviews": "F. Scott Fitzgerald discusses his inspirations, writing process, and themes of ambition and disillusionment in The Great Gatsby.",
+        "bookAdaptations": {
+            "poster": "https://i.ibb.co/bLGVQXb/The-Great-Gatsby-posters.jpg",
+            "adaptationName": "The Great Gatsby",
+            "type": "Movie",
+            "released": "2013",
+            "director": "Baz Luhrmann",
+            "runtime": "143 minutes",
+            "cast": ["Leonardo DiCaprio", "Carey Mulligan"],
+            "imdbRating": 7.2,
+            "worldwideGrossEarnings": "$353,560,514",
+            "link": "https://mlwbd.do//?s=The+Great+Gatsby"
+        }
     },
     {
         "id": 3,
         "bookName": "1984",
-        "author": "George Orwell",
+        "author": {
+            "name": "George Orwell",
+            "auImage": "https://i.ibb.co/qJQCxpY/George-Orwell.jpg",
+            "birthDate": "June 25, 1903",
+            "deathDate": "January 21, 1950",
+            "otherBooks": [
+                "Animal Farm",
+                "Homage to Catalonia"
+            ],
+            "totalPublications": 10,
+            "achievements": [
+                "Influential Political Novels",
+                "Cultural Impact in Literature"
+            ]
+        },
         "image": "https://i.ibb.co/Vgfgq6C/1984.jpg",
         "review": "Orwell's dystopian masterpiece portrays a totalitarian society where individuality is suppressed, and reality is controlled by Big Brother. A haunting warning about surveillance and oppression.",
         "totalPages": 328,
@@ -68,20 +116,37 @@
         "publisher": "Secker & Warburg",
         "yearOfPublishing": 1949,
         "authorInterviews": "George Orwell reflects on the political and social themes of 1984, drawing parallels to contemporary issues and the dangers of authoritarianism.",
-        "bookAdaptations": [
-            {
-                "poster": "https://i.ibb.co/8KRd1Mv/1984-poster.jpg",
-                "adaptationName": "1984",
-                "type": "Movie",
-                "released": "1984",
-                "director": "Michael Radford"
-            }
-        ]
+        "bookAdaptations": {
+            "poster": "https://i.ibb.co/8KRd1Mv/1984-poster.jpg",
+            "adaptationName": "1984",
+            "type": "Movie",
+            "released": "1984",
+            "director": "Michael Radford",
+            "runtime": "113 minutes",
+            "cast": ["John Hurt", "Richard Burton"],
+            "imdbRating": 7.4,
+            "worldwideGrossEarnings": "$8,368,371",
+            "link": "https://mlwbd.do/?s=1984"
+        }
     },
     {
         "id": 4,
         "bookName": "Pride and Prejudice",
-        "author": "Jane Austen",
+        "author": {
+            "name": "Jane Austen",
+            "auImage": "https://i.ibb.co/PmzmG4K/Jane-Austen.jpg",
+            "birthDate": "December 16, 1775",
+            "deathDate": "July 18, 1817",
+            "otherBooks": [
+                "Sense and Sensibility",
+                "Emma"
+            ],
+            "totalPublications": 6,
+            "achievements": [
+                "Celebrated for her romantic fiction",
+                "Pride and Prejudice one of the most beloved novels in English literature"
+            ]
+        },
         "image": "https://i.ibb.co/MZ9X4PC/Pride-and-Prejudice.jpg",
         "review": "Austen's romantic comedy of manners follows the spirited Elizabeth Bennet as she navigates love, societal expectations, and personal growth. Witty dialogue and timeless themes abound.",
         "totalPages": 279,
@@ -94,20 +159,37 @@
         "publisher": "T. Egerton, Whitehall",
         "yearOfPublishing": 1813,
         "authorInterviews": "Jane Austen's enduring charm shines through as she discusses the characters, humor, and societal norms depicted in Pride and Prejudice.",
-        "bookAdaptations": [
-            {
-                "poster": "https://i.ibb.co/pLVrwD1/Pride-and-Prejudice-poster.jpg",
-                "adaptationName": "Pride and Prejudice",
-                "type": "Movie",
-                "released": "2005",
-                "director": "Joe Wright"
-            }
-        ]
+        "bookAdaptations": {
+            "poster": "https://i.ibb.co/pLVrwD1/Pride-and-Prejudice-poster.jpg",
+            "adaptationName": "Pride and Prejudice",
+            "type": "Movie",
+            "released": "2005",
+            "director": "Joe Wright",
+            "runtime": "129 minutes",
+            "cast": ["Keira Knightley", "Matthew Macfadyen"],
+            "imdbRating": 7.8,
+            "worldwideGrossEarnings": "$121,147,947",
+            "link": "https://mlwbd.do/?s=Pride+and+Prejudice"
+        }
     },
     {
         "id": 5,
         "bookName": "The Hobbit",
-        "author": "J.R.R. Tolkien",
+        "author": {
+            "name": "J.R.R. Tolkien",
+            "auImage": "https://i.ibb.co/MPgCn2P/J-R-R-Tolkien.png",
+            "birthDate": "January 3, 1892",
+            "deathDate": "September 2, 1973",
+            "otherBooks": [
+                "The Lord of the Rings",
+                "The Silmarillion"
+            ],
+            "totalPublications": 15,
+            "achievements": [
+                "Father of Modern Fantasy Literature",
+                "The Hobbit and The Lord of the Rings among the best-selling novels ever written"
+            ]
+        },
         "image": "https://i.ibb.co/L5zq85W/The-Hobbit.jpg",
         "review": "An enchanting tale of adventure, friendship, and bravery in Middle-earth. J.R.R. Tolkien's mastery of fantasy literature shines in this captivating prelude to The Lord of the Rings.",
         "totalPages": 310,
@@ -120,20 +202,37 @@
         "publisher": "George Allen & Unwin",
         "yearOfPublishing": 1937,
         "authorInterviews": "J.R.R. Tolkien discusses the origins of The Hobbit and the rich mythology of Middle-earth in this insightful interview.",
-        "bookAdaptations": [
-            {
-                "poster": "https://i.ibb.co/NZVng5D/An-Unexpected-Journey.jpg",
-                "adaptationName": "The Hobbit: An Unexpected Journey",
-                "type": "Movie",
-                "released": "2012",
-                "director": "Peter Jackson"
-            }
-        ]
+        "bookAdaptations": {
+            "poster": "https://i.ibb.co/NZVng5D/An-Unexpected-Journey.jpg",
+            "adaptationName": "The Hobbit: An Unexpected Journey",
+            "type": "Movie",
+            "released": "2012",
+            "director": "Peter Jackson",
+            "runtime": "169 minutes",
+            "cast": ["Martin Freeman", "Ian McKellen"],
+            "imdbRating": 7.8,
+            "worldwideGrossEarnings": "$1,021,103,568",
+            "link": "https://mlwbd.do/?s=The+Hobbit%3A+An+Unexpected+Journey"
+        }
     },
     {
         "id": 6,
         "bookName": "The Hitchhiker's Guide to the Galaxy",
-        "author": "Douglas Adams",
+        "author": {
+            "name": "Douglas Adams",
+            "auImage": "https://i.ibb.co/rs1XNHH/Douglas-Adams.jpg",
+            "birthDate": "March 11, 1952",
+            "deathDate": "May 11, 2001",
+            "otherBooks": [
+                "Dirk Gently's Holistic Detective Agency",
+                "Life, the Universe and Everything"
+            ],
+            "totalPublications": 7,
+            "achievements": [
+                "Innovative Science Fiction Writer",
+                "Cult Following for Hitchhiker's Guide to the Galaxy series"
+            ]
+        },
         "image": "https://i.ibb.co/k2wWDNg/The-Hitchhiker-s-Guide-to-the-Galaxy.jpg",
         "review": "Adams' sci-fi comedy follows Arthur Dent's absurd adventures across the universe after Earth's destruction. Witty satire, quirky characters, and philosophical musings make this a cult favorite.",
         "totalPages": 215,
@@ -146,14 +245,17 @@
         "publisher": "Pan Books",
         "yearOfPublishing": 1979,
         "authorInterviews": "Douglas Adams humorously discusses the absurdities of space, the creation of quirky characters like Ford Prefect, and the philosophical questions raised in The Hitchhiker's Guide to the Galaxy.",
-        "bookAdaptations": [
-            {
-                "poster": "https://i.ibb.co/QmHmStP/The-Hitchhiker-s-Guide-to-the-Galaxy.jpg",
-                "adaptationName": "The Hitchhiker's Guide to the Galaxy",
-                "type": "Movie",
-                "released": "2005",
-                "director": "Garth Jennings"
-            }
-        ]
+        "bookAdaptations": {
+            "poster": "https://i.ibb.co/QmHmStP/The-Hitchhiker-s-Guide-to-the-Galaxy.jpg",
+            "adaptationName": "The Hitchhiker's Guide to the Galaxy",
+            "type": "Movie",
+            "released": "2005",
+            "director": "Garth Jennings",
+            "runtime": "109 minutes",
+            "cast": ["Martin Freeman", "Sam Rockwell"],
+            "imdbRating": 6.8,
+            "worldwideGrossEarnings": "$104,478,416",
+            "link": "https://www.imdb.com/title/tt0371724/"
+        }
     }
 ]

@@ -16,7 +16,7 @@ const Book = ({ book }) => {
                         ))}
                     </ul>
                     <h2 className="text-neutral-900 text-base font-bold font-['Playfair Display']">{bookName}</h2>
-                    <p className="text-neutral-900 text-opacity-80 text-base font-medium font-['Work Sans']">by : {author}</p>
+                    <p className="text-neutral-900 text-opacity-80 text-base font-medium font-['Work Sans']">by : {author.name}</p>
                     <hr className="border-dashed" />
                     <div className="flex items-center justify-between">
                         <p>{category}</p>

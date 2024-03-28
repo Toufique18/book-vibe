@@ -13,6 +13,8 @@ import BookDetails from './components/BookDetails/BookDetails';
 import ReadList from './components/ReadList/ReadList';
 import WishList from './components/WishList/WishList';
 import PageToRead from './components/PageToRead/PageToRead';
+import Interviews from './components/LoadBook/Interviews/Interviews';
+import Adaptations from './components/Adaptations/Adaptations';
 
 const router = createBrowserRouter([
   {
@@ -45,6 +47,14 @@ const router = createBrowserRouter([
           }
 
         ],
+      },
+      {
+        path: "/interviews",
+        element: <Interviews></Interviews>
+      },
+      {
+        path: "/adaptations",
+        element: <Adaptations></Adaptations>
       },
       {
         path: "/pagesRead",

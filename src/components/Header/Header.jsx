@@ -4,11 +4,11 @@ const Header = () => {
 
     const links = <>
 
-        <li><NavLink className={({isActive})=> isActive ? "btn text-green-600 border-2 border-green-500" : "text-neutral-900 text-opacity-80 text-lg font-normal font-['Work Sans']"}  to="/">Home</NavLink></li>
-        <li><NavLink className={({isActive})=> isActive ? "btn text-green-600 border-2 border-green-500" : "text-neutral-900 text-opacity-80 text-lg font-normal font-['Work Sans']"} to="/listedBooks">Listed Books</NavLink></li>
-        <li><NavLink className={({isActive})=> isActive ? "btn text-green-600 border-2 border-green-500" : "text-neutral-900 text-opacity-80 text-lg font-normal font-['Work Sans']"} to="/pagesRead">Pages to Read</NavLink></li>
-        <li><NavLink className={({isActive})=> isActive ? "btn text-green-600 border-2 border-green-500" : "text-neutral-900 text-opacity-80 text-lg font-normal font-['Work Sans']"} to="/interviews">Author Interviews</NavLink></li>
-        <li><NavLink className={({isActive})=> isActive ? "btn text-green-600 border-2 border-green-500" : "text-neutral-900 text-opacity-80 text-lg font-normal font-['Work Sans']"} to="/adaptations">Book Adaptations</NavLink></li>
+        <li><NavLink className={({ isActive }) => isActive ? "btn text-green-600 border-2 border-green-500" : "text-neutral-900 text-opacity-80 text-lg font-normal font-['Work Sans']"} to="/">Home</NavLink></li>
+        <li><NavLink className={({ isActive }) => isActive ? "btn text-green-600 border-2 border-green-500" : "text-neutral-900 text-opacity-80 text-lg font-normal font-['Work Sans']"} to="/listedBooks">Listed Books</NavLink></li>
+        <li><NavLink className={({ isActive }) => isActive ? "btn text-green-600 border-2 border-green-500" : "text-neutral-900 text-opacity-80 text-lg font-normal font-['Work Sans']"} to="/pagesRead">Pages to Read</NavLink></li>
+        <li><NavLink className={({ isActive }) => isActive ? "btn text-green-600 border-2 border-green-500" : "text-neutral-900 text-opacity-80 text-lg font-normal font-['Work Sans']"} to="/interviews">Author Information</NavLink></li>
+        <li><NavLink className={({ isActive }) => isActive ? "btn text-green-600 border-2 border-green-500" : "text-neutral-900 text-opacity-80 text-lg font-normal font-['Work Sans']"} to="/adaptations">Book Adaptations</NavLink></li>
 
     </>
 
@@ -23,7 +23,7 @@ const Header = () => {
                         {links}
                     </ul>
                 </div>
-                <a className="btn btn-ghost text-neutral-900 text-2xl font-bold font-['Work Sans']">Book Vibe</a>
+                <a className="btn btn-ghost text-neutral-900 text-2xl font-bold font-['Work Sans']">BookVoyage</a>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
